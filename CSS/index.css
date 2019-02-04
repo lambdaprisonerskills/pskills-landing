@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%;
+}
+html,
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+header {
+  background-image: url("/img/working-together2.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+  color: white;
+}
+header .bg-color {
+  background: rgba(36, 41, 67, 0.85);
+  height: 100%;
+}
+header .bg-color nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  position: fixed;
+  width: 100%;
+}
+header .bg-color nav i {
+  font-size: 2.4rem;
+  color: white;
+  margin-right: 10px;
+}
+header .bg-color nav a {
+  background: white;
+  font-size: 1.2rem;
+  color: #242943;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 10px;
+}
+header .bg-color .text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+header .bg-color .text h1 {
+  font-size: 2.4rem;
+  width: 100%;
+  border-bottom: 1px solid white;
+  padding: 20px 0;
+}
+header .bg-color .text p {
+  font-size: 1.6rem;
+  width: 100%;
+  margin-top: 10px;
+}
+header .bg-color .text button {
+  font-size: 1.4rem;
+  background: none;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 30px;
+  margin: 10px 0;
+}
+.menu {
+  background: rgba(36, 41, 67, 0.85);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  display: none;
+}
+.menu .close {
+  color: white;
+  font-size: 3rem;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+.menu .menu-content {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.menu .menu-content a {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}

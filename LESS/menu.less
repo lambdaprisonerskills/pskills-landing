@@ -1,0 +1,33 @@
+.menu {
+  background: @banner-color;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  .flex(center, center);
+  flex-wrap: wrap;
+  align-content: center;
+  display: none;
+  .close {
+    color: white;
+    font-size: 3rem;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+  .menu-content {
+    width: 90%;
+    .flex(center, center);
+    flex-wrap: wrap;
+    a {
+      font-weight: bold;
+      font-size: 1.6rem;
+      color: white;
+      text-decoration: none;
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    }
+  }
+}
